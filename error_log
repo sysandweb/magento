@@ -1,0 +1,9 @@
+[02-Dec-2019 16:49:49 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/usrnasser/public_html/ecommerce/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/usrnasser/public_html/ecommerce/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/usrnasser/public_html/ecommerce/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/usrnasser/public_html/ecommerce/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/usrnasser/public_html/ecommerce/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(26): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/usrnasser/public_html/ecommerce/vendor/magento/framework/App in /home/usrnasser/public_html/ecommerce/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[01-Jul-2020 21:35:08 UTC] PHP Warning:  require(/home/usrnasser/public_html/ecommerce/vendor/composer/../magento/language-zh_hans_cn/registration.php): failed to open stream: No such file or directory in /home/usrnasser/public_html/ecommerce/vendor/composer/autoload_real.php on line 70
+[01-Jul-2020 21:35:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/usrnasser/public_html/ecommerce/vendor/composer/../magento/language-zh_hans_cn/registration.php' (include_path='/home/usrnasser/public_html/ecommerce/vendor/magento/zendframework1/library:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/usrnasser/public_html/ecommerce/vendor/composer/autoload_real.php on line 70

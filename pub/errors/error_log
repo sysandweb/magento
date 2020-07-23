@@ -1,0 +1,9 @@
+[09-Jul-2020 18:10:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\CoponentRegistrar' not found in /home/usrnasser/public_html/ecommerce/app/code/Nasser/Modulobasico/registration.php:3
+Stack trace:
+#0 /home/usrnasser/public_html/ecommerce/app/etc/NonComposerComponentRegistration.php(29): require_once()
+#1 [internal function]: Magento\NonComposerComponentRegistration\{closure}('/home/usrnasser...')
+#2 /home/usrnasser/public_html/ecommerce/app/etc/NonComposerComponentRegistration.php(29): array_map(Object(Closure), Array)
+#3 /home/usrnasser/public_html/ecommerce/app/etc/NonComposerComponentRegistration.php(33): Magento\NonComposerComponentRegistration\{closure}()
+#4 /home/usrnasser/public_html/ecommerce/vendor/composer/autoload_real.php(70): require('/home/usrnasser...')
+#5 /home/usrnasser/public_html/ecommerce/vendor/composer/autoload_real.php(60): composerRequiref6a67d92b5a759526446827cfc564d96('b4cf39431a4b949...', '/home/usrnasser...')
+#6 /home/usrnasser/public_html/ecommerce/vendor/autoload.php(7): ComposerAutoloaderInitf in /home/usrnasser/public_html/ecommerce/app/code/Nasser/Modulobasico/registration.php on line 3
